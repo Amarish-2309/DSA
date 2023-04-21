@@ -1,0 +1,15 @@
+Solution:-
+class Solution {
+public:
+void helper(TreeNode* root,vector<int>&s){
+    if(root==NULL) return ;
+     helper(root->left,s);
+     helper(root->right,s);
+     s.push_back(root->val);
+}
+    vector<int> postorderTraversal(TreeNode* root) {
+         vector<int>s;
+       helper(root,s);
+       return s;
+    }
+};
