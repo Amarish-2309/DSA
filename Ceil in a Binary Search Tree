@@ -1,0 +1,26 @@
+ solution :- 
+ 
+ int findceil(TreeNode* root , int k){
+ int ceil =-1;
+ while(root){
+      if(k==root->val)
+      {
+          ceil =root->val;
+          return ceil;
+      }
+ 
+       else if(k>root->val)
+       {
+           root=root->right;
+       }
+ 
+       else
+       {
+            ceil =root->val;
+            root->root->left;
+       }
+ 
+ 
+ }
+ return ceil;
+ }
