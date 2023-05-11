@@ -20,6 +20,4 @@ if(root->left) tot+=root->left->data;
 if(root->left || root->right) root->data = tot;
 
 }
-
-
 };
