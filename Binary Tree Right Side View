@@ -12,7 +12,5 @@ public:
         vector<int>ans;
         recursion(root,0,ans);
         return ans;
-    }
-
-   
+    }   
 };
