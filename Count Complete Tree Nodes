@@ -1,6 +1,5 @@
 link:-https://leetcode.com/problems/count-complete-tree-nodes/description/
 solution:-
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
