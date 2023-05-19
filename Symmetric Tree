@@ -1,3 +1,6 @@
+Link:-https://leetcode.com/problems/symmetric-tree/
+Solution:-
+
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
