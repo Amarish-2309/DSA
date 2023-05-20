@@ -63,23 +63,3 @@ int getDiameter(TreeNode* root,int start){
         return res;
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
