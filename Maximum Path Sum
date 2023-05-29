@@ -28,8 +28,4 @@ int path(TreeNode* root,int &d){
         return d;
     }
 };
-
-
-
-
  
