@@ -16,5 +16,4 @@ if(A==NULL) return arr;
 getpath(A,arr,B);
 return arr;
 }
-
 };
