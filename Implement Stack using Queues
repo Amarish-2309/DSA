@@ -1,0 +1,34 @@
+link:-https://leetcode.com/problems/implement-stack-using-queues/
+solution:-
+class MyStack {
+public:
+    MyStack() {
+        
+    }
+    queue<int> q;
+    void push(int x) {
+        int sz=q.size();
+        q.push(x);
+        while(sz--){
+            q.push(q.front());
+            q.pop();
+        }
+    }
+    
+    int pop() {
+       int result=top();
+        q.pop();
+        return result;     
+    }
+    
+    int top() {
+        return q.front();
+        
+    }
+    
+    bool empty() {
+       if(q.size()!=0)
+       return false;
+       return true;
+    }
+};
