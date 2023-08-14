@@ -2,7 +2,7 @@ link:- https://leetcode.com/problems/average-salary-excluding-the-minimum-and-ma
 Solution:-
 
 class Solution {
-public:
+public: 
     double average(vector<int>& s) {
         sort(s.begin(), s.end());
         double ans =0;
